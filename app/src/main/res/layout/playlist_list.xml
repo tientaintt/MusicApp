@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_playlist_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Thành phần đầu tiên: tiêu đề -->
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Playlist"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp"/>
+    <ListView
+        android:id="@+id/listview_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_title"
+        android:padding="16dp"
+        tools:ignore="TouchTargetSizeCheck"
+        android:layout_weight="1"
+        />
+    <include layout="@layout/toolbar_layout"
+        />
+</LinearLayout>

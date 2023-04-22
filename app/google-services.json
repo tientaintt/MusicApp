@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "884660457875",
+    "project_id": "applicationmusic-56667",
+    "storage_bucket": "applicationmusic-56667.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884660457875:android:5aceeafe50f9420abbd866",
+        "android_client_info": {
+          "package_name": "hcmute.vika.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884660457875-t8jvql69ao7q9o2d96s7vkkva5bohvkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuTwICieA159rwnrBV1xCLkGU5wvRgPz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884660457875-jf39dprqprvldre388tclu0jpkcftdh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

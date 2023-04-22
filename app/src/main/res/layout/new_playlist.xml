@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_new_playlist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Thành phần đầu tiên: tiêu đề -->
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạo Playlist Mới"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <!-- Thành phần thứ hai: tên playlist -->
+    <TextView
+        android:id="@+id/text_playlist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên Playlist"
+        android:textSize="18sp"
+        android:layout_below="@id/text_title"
+        android:padding="16dp"/>
+
+    <!-- Thành phần thứ ba: nhập tên playlist -->
+    <EditText
+        android:id="@+id/edit_playlist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên playlist"
+        android:layout_below="@id/text_playlist_name"
+        android:padding="16dp"/>
+
+    <!-- Thành phần thứ tư: nút tạo mới playlist -->
+    <Button
+        android:id="@+id/button_create_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạo Mới Playlist"
+        android:layout_below="@id/edit_playlist_name"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+
+        />
+    <!-- Thanh công cụ -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        >
+        <include layout="@layout/toolbar_layout" />
+    </LinearLayout>
+
+</LinearLayout>

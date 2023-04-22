@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="64dp"
+    android:background="#CA5959">
+    <ImageView
+        android:id="@+id/img_song"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_song"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/img_play_or_pause"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_title_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#ffff"
+            android:paddingStart="15dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tv_single_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingStart="15dp"
+            android:textColor="#ffff"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img_play_or_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/img_close"
+        android:layout_marginEnd="10dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/pause1"/>
+
+
+    <ImageView
+        android:id="@+id/img_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/close"
+        />
+
+</RelativeLayout>
