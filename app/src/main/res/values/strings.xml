@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edm">EDM</string>
+    <string name="nh_c_vi_t">Nhạc Việt</string>
+    <string name="nh_c_us_uk">Nhạc US/UK</string>
+    <string name="tr_t_nh">Trữ Tình</string>
+    <string name="kh_c">Khác</string>
+</resources>

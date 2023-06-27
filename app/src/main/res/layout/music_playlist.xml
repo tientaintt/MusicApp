@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Playlist Âm Nhạc"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/album"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:src="@drawable/album"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/playlist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên Playlist"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp"
+        />
+
+    <ListView
+        android:id="@+id/listsongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:padding="16dp"
+        tools:ignore="TouchTargetSizeCheck"
+        android:layout_weight="4"/>
+
+    <include layout="@layout/toolbar_layout"
+        />
+
+</LinearLayout>
